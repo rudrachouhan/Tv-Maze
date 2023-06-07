@@ -5,7 +5,7 @@ export const MovieCard = ({ show, id, data }) => {
 
   return (
     <>
-      <div className="flex flex-col w-[210px] m-5 z-100 rounded-b-xl bg-white" key={id}>
+      <div className="flex flex-col m-5 z-100 rounded-b-xl bg-white" key={id}>
         <div className="w-[100%]">
           <img src={show.image.medium} alt="logo" />
         </div>
